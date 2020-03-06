@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "test_content_types",
+  "info": {
+    "name": "test content type"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "testContentType": {
+      "type": "richtext"
+    }
+  }
+}
